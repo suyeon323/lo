@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: right;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 16px;
+  background-color: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #3f3f3f;
+}
+
+.subnav-content {
+  padding: 0px 110px 0px 0px;
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #efefef;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  font-size: 12px;
+  float: right;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #efa812;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">명조의 아름다움</a>
+
+    <div class="subnav">
+      <button class="subnavbtn">크기와 무게<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="e3.html">F.바스커빌 크기무게</a>
+        <a href="h3.html">E.나눔명조 크기무게</a>
+      </div>
+    </div>
+
+    <div class="subnav">
+      <button class="subnavbtn">자간행간 사이사이<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="e2.html">D.바스커빌 자간행간</a>
+        <a href="h2.html">C.나눔명조 자간행간</a>
+      </div>
+    </div>
+
+    <div class="subnav">
+      <button class="subnavbtn">서체꼴 이야기<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="e1.html">B.바스커빌 이야기</a>
+        <a href="h1.html">A.나눔명조 이야기</a>
+      </div>
+
+    </div>
+    <div class="w3-display-topleft w3-container"><p>Top Left</p></div>
+</div>
+    <div>
+
+    <div style="position: absolute;">
+        <div style="position: relative; top: 385px; left: 900px;"><a href="https://hangeul.naver.com/2017/nanum"><img src="./l.png"></a></img></div>
+        <div style="position: relative; top: 420px; left: 900px;"><a href="https://fonts.google.com/specimen/Baskervville?query=+bask"><img src="./p.png"></img></div>
+    </div>
+    <img src="./r.gif" width: "100%"></img>
+</div>
+
+<div style="position: fixed; bottom: 5px; right: 5px;">
+<a href="#"><img src="./1.png" width="30px" title="위로 가기"></a>
+</div>
+
+</body>
+</html>
